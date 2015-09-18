@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="0dp"
+    android:paddingTop="8dp" >
+
+    <LinearLayout
+        android:id="@+id/llview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/llbg"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/iv_radio_adpt_size"
+                android:layout_marginLeft="@dimen/ll_radio_adpt_margin_left"
+                android:background="@android:color/white"
+                android:gravity="right"
+                android:orientation="vertical"
+                android:padding="8dp" >
+
+                <TextView
+                    android:id="@+id/tvtitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/ll_radio_adpt_margin_left"
+                    android:gravity="right"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/tvdescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/black"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivthumbnail"
+                android:layout_width="@dimen/iv_radio_adpt_size"
+                android:layout_height="@dimen/iv_radio_adpt_size"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher" />
+
+            <Button
+                android:id="@+id/btndownload"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ivthumbnail"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/ivthumbnail"
+                android:background="@android:color/white"
+                android:paddingBottom="2dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="2dp"
+                android:text="دانلود"
+                android:textColor="@color/radio_bg" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray" >
+
+    </RelativeLayout>
+
+</LinearLayout>

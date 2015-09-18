@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#FF0000</color>
+    <color name="green">#008000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#690E42</color>
+    
+    <color name="tab_bg">#131214</color>
+    
+    <color name="tab_tv_1">#E10A0C</color>
+    <color name="tab_tv_2">#76027A</color>
+    <color name="tab_tv_3">#E18023</color>
+    <color name="tab_tv_4">#F000F1</color>
+    
+    <color name="call_bg">#E88A30</color>
+    <color name="skype_bg">#0660EB</color>
+    <color name="whatsapp_bg">#028B03</color>
+    <color name="email_bg">#E70230</color>
+    <color name="photos_bg">#5D008B</color>
+    <color name="voice_bg">#320331</color>
+    
+    <color name="radio_bg">#D30407</color>
+    
+    <color name="btn_bg">#9BDF0A</color>
+    
+    
+</resources>

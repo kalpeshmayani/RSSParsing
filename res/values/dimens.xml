@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    
+    
+    <dimen name="tv_width_feedback">80dp</dimen>
+    
+    <dimen name="tv_padding_left_right_feedback">12dp</dimen>
+    <dimen name="tv_padding_top_bottom_feedback">5dp</dimen>
+    
+    <dimen name="ll_height_feedback">220dp</dimen>
+	
+	
+	
+	<dimen name="tab_icon_size">25dp</dimen>
+    <dimen name="tab_tv_text_size">12sp</dimen>
+    
+    
+    
+    <dimen name="logo_size">80dp</dimen>
+	<dimen name="ll_header_padding">3dp</dimen>
+    <dimen name="social_icon_size">25dp</dimen>
+    
+    
+    
+    <dimen name="iv_radio_adpt_size">60dp</dimen>
+    <dimen name="ll_radio_adpt_margin_left">30dp</dimen>
+
+    
+    
+    <dimen name="fancy_cover_flow_width">200px</dimen>
+    <dimen name="fancy_cover_flow_height">100px</dimen>
+
+    <dimen name="tv_indicator_size">8px</dimen>
+
+    
+    
+    <dimen name="social_btn_size">35dp</dimen>
+    
+</resources>
